@@ -11,7 +11,7 @@ config/geocoder_api_keys.yml
 config/mongrel_cluster.yml
 config/newrelic.yml
 config/theme.txt
-config/thin.yml
+#config/thin.yml
 config/secrets.yml
 config/sunspot.yml
 coverage.info

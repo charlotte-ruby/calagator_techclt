@@ -1,0 +1,15 @@
+---
+chdir: /rails_apps/calagator_techclt/current
+environment: production
+address: 0.0.0.0
+port: 8200
+timeout: 30
+log: /rails_apps/calagator_techclt/shared/log/thin.log
+pid: /rails_apps/calagator_techclt/shared/tmp/pids/thin.pid
+max_conns: 1024
+max_persistent_conns: 512
+require: []
+
+wait: 60
+servers: 1
+daemonize: true
