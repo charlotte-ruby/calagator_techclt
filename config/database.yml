@@ -1,10 +1,22 @@
-<%
-# database.yml customizer
-# =======================
-#
-# Load database configuration from this custom file if it exists:
-custom  = "#{RAILS_ROOT}/config/database~custom.yml"
-# ...otherwise, load database configuration from this default file:
-default = "#{RAILS_ROOT}/config/database~sqlite3.sample.yml"
-%>
-<%= ERB.new(File.read(File.exist?(custom) ? custom : default)).result() %>
+common: &common
+  adapter: mysql
+  encoding: utf8
+  socket: <%= `mysql_config --socket`.chomp %>
+  username: #TODO: create new user for calagator
+  password: #TODO
+
+development:
+  database: calagator_dev
+  << : *common
+
+preview:
+  database: calagator_dev
+  << : *common
+
+test:
+  database: calagator_test
+  << : *common
+
+production:
+  database: calagator_production
+  << : *common
