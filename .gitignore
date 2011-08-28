@@ -8,7 +8,7 @@
 .dtach
 config/database~custom.yml
 config/geocoder_api_keys.yml
-config/mongrel_cluster.yml
+#config/mongrel_cluster.yml
 config/newrelic.yml
 config/theme.txt
 #config/thin.yml
