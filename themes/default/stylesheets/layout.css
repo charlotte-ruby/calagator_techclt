@@ -814,4 +814,52 @@ fieldset .help {
 .plancast-rsvp {
   font-size: 11px;
 }
+
+#navbar {
+    float: right;
+    font-family: arial, serif;
+    padding: 16px 0 0 0;
+    margin: 15px 0 0 0;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+    font-weight: bold;
+    padding: 0;
+    margin: 0px;
+}
+
+#navbar ul li {
+    list-style: none;
+    display: inline;
+    padding-top: 0px;
+    padding-right: 3px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+#navbar ul li a {
+    text-transform: uppercase;
+    color: #eee;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px -1px 1px #757575;
+    filter: dropshadow(color=#eeeeee, offx=0, offy=1);
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+#navbar ul li a:hover {
+    background-color: #339990;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
 /* @end */
+
