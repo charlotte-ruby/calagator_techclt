@@ -31,6 +31,8 @@ body {
 }
 
 #logo{
+  width:300px;
+  float:left;
   padding-top: 15px;
 }
 
