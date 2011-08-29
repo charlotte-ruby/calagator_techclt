@@ -34,3 +34,7 @@ namespace :deploy do
     run "cd /rails_apps/#{application}/current;mongrel_rails cluster::restart"
   end
 end
+
+task :after_symlink do
+  run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
+end

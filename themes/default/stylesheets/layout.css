@@ -94,7 +94,7 @@ body {
 
 
 #app_menu li.active a{
-  color: #339990;
+  color: #328675;
   text-shadow: none;
 }
 
@@ -144,7 +144,7 @@ body {
 }
 
 .subnav .active {
-  color: #339990;
+  color: #328675;
 }
 
 #content_outer{
@@ -231,12 +231,12 @@ ul.event_list .day_of_week {
 
 
 .sidebar {
-  background: #e8fbfe;
+  background: #eee;
   padding: 2em 30px 1em 1em;
   position: absolute;
   top: 0;
   right: 0;
-  margin: -1em -30px 0 0;
+  margin: 0 -30px 0 0;
   width: 145px;
   border: 1px solid #b9b9b9;
   border-top: none;
@@ -247,7 +247,7 @@ margin-right: 200px;
 }
 
 #list_filters{
-  background-color: rgba(117, 117, 117, 0.2);
+  background-color: #eee;
   margin-top: 0.1px;
 }
 
@@ -319,14 +319,14 @@ ul.event_list .list_date {
 }
 
 .single_event .date {
-  color: #82c555;
+  color: #666;
   font-size: 1.3em;
   font-weight: bold;
   margin-bottom: 1em;
 }
 
 .single_event .location.vcard {
-  background: #e8fbfe;
+  background: #eee;
   width: 45em;
   /* height: 16em;*/
   padding: 1em;
@@ -531,7 +531,7 @@ ul.event_list .list_date {
 }
 
 .single_venue .description {
-  background: #e8fbfe;
+  background: #eee;
   padding: 1em;
   margin: 1em 0;
 }
